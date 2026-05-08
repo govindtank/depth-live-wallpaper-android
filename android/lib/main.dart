@@ -83,65 +83,65 @@ class GalleryScreen extends StatefulWidget {
 
 class _GalleryScreenState extends State<GalleryScreen> {
   final List<DepthWallpaper> wallpapers = [
-    DepthWallpaper(
-      id: 'sunrise_parallax',
-      name: 'Sunrise Parallax',
-      layers: const [
-        DepthLayer(imagePath: 'assets/images/background.png', depthFactor: 0.2, opacity: 1.0),
-        DepthLayer(imagePath: 'assets/images/mountains.png', depthFactor: 0.7, opacity: 0.9),
-        DepthLayer(imagePath: 'assets/images/sun.png', depthFactor: 1.0, opacity: 0.8),
-      ],
-      clockConfig: const ClockConfig(type: 'digital', format: 'HH:mm'),
-    ),
+  DepthWallpaper(
+    id: 'sunrise_parallax',
+    name: 'Sunrise Parallax',
+    layers: [
+      DepthLayer(imagePath: 'assets/images/background.png', depthFactor: 0.2, opacity: 1.0),
+      DepthLayer(imagePath: 'assets/images/mountains.png', depthFactor: 0.7, opacity: 0.9),
+      DepthLayer(imagePath: 'assets/images/sun.png', depthFactor: 1.0, opacity: 0.8),
+    ],
+    clockConfig: ClockConfig(type: 'digital', format: 'HH:mm'),
+  ),
     DepthWallpaper(
       id: 'forest_depth',
       name: 'Forest Depth',
-      layers: const [
+      layers: [
         DepthLayer(imagePath: 'assets/images/forest_bg.png', depthFactor: 0.1, opacity: 1.0),
         DepthLayer(imagePath: 'assets/images/trees.png', depthFactor: 0.5, opacity: 0.9),
         DepthLayer(imagePath: 'assets/images/birds.png', depthFactor: 1.0, opacity: 0.7),
       ],
-      clockConfig: const ClockConfig(type: 'digital', color: '#22C55E'),
+      clockConfig: ClockConfig(type: 'digital', color: '#22C55E'),
     ),
     DepthWallpaper(
       id: 'ocean_waves',
       name: 'Ocean Waves',
-      layers: const [
+      layers: [
         DepthLayer(imagePath: 'assets/images/ocean_bg.png', depthFactor: 0.15, opacity: 1.0),
         DepthLayer(imagePath: 'assets/images/waves.png', depthFactor: 0.8, opacity: 0.95),
         DepthLayer(imagePath: 'assets/images/seafoam.png', depthFactor: 1.0, opacity: 0.85),
       ],
-      clockConfig: const ClockConfig(type: 'digital', color: '#7C3AED'),
+      clockConfig: ClockConfig(type: 'digital', color: '#7C3AED'),
     ),
     DepthWallpaper(
       id: 'space_stars',
       name: 'Space Stars',
-      layers: const [
+      layers: [
         DepthLayer(imagePath: 'assets/images/space_bg.png', depthFactor: 0.1, opacity: 1.0),
         DepthLayer(imagePath: 'assets/images/galaxy.png', depthFactor: 0.6, opacity: 0.9),
         DepthLayer(imagePath: 'assets/images/planet.png', depthFactor: 1.0, opacity: 0.8),
       ],
-      clockConfig: const ClockConfig(type: 'digital', color: '#EF4444'),
+      clockConfig: ClockConfig(type: 'digital', color: '#EF4444'),
     ),
     DepthWallpaper(
       id: 'city_skyline',
       name: 'City Skyline',
-      layers: const [
+      layers: [
         DepthLayer(imagePath: 'assets/images/city_bg.png', depthFactor: 0.2, opacity: 1.0),
         DepthLayer(imagePath: 'assets/images/buildings.png', depthFactor: 0.7, opacity: 0.95),
         DepthLayer(imagePath: 'assets/images/tokyo_tower.png', depthFactor: 1.0, opacity: 0.8),
       ],
-      clockConfig: const ClockConfig(type: 'digital', color: '#F59E0B'),
+      clockConfig: ClockConfig(type: 'digital', color: '#F59E0B'),
     ),
     DepthWallpaper(
       id: 'sunset_mountain',
       name: 'Sunset Mountain',
-      layers: const [
+      layers: [
         DepthLayer(imagePath: 'assets/images/mountain_bg.png', depthFactor: 0.2, opacity: 1.0),
         DepthLayer(imagePath: 'assets/images/sunset_sky.png', depthFactor: 0.5, opacity: 0.9),
         DepthLayer(imagePath: 'assets/images/clover.png', depthFactor: 1.0, opacity: 0.8),
       ],
-      clockConfig: const ClockConfig(type: 'digital', color: '#EC4899'),
+      clockConfig: ClockConfig(type: 'digital', color: '#EC4899'),
     ),
   ];
 
