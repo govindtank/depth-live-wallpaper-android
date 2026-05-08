@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for depth live wallpaper preview -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background gradient -->
+    <item android:id="@+id/background">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#1a000000"
+                android:endColor="#2d000000"
+                android:angle="135"/>
+        </shape>
+    </item>
+    
+    <!-- Animated layers placeholder -->
+    <item android:id="@+id/layer1">
+        <bitmap
+            android:src="@drawable/ic_layers"
+            android:gravity="center"
+            android:alpha="0.7"/>
+    </item>
+    
+    <!-- Clock overlay -->
+    <item android:id="@+id/clock">
+        <bitmap
+            android:src="@drawable/ic_clock"
+            android:gravity="bottom"
+            android:alpha="0.8"/>
+    </item>
+</layer-list>
