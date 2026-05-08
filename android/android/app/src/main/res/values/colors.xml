@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color for live wallpaper preview -->
+    <color name="preview_wallpaper_background">#2D1541</color>
+    
+    <!-- Depth layer colors -->
+    <color name="depth_layer1">#3D2A5E</color>
+    <color name="depth_layer2">#5D407E</color>
+    <color name="depth_layer3">#8E6ECB</color>
+    
+    <!-- Clock overlay colors -->
+    <color name="clock_digital">#06B6D4</color>
+    <color name="clock_analog">#FFFFFF</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#BDBDBD</color>
+</resources>
