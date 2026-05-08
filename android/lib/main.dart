@@ -13,13 +13,13 @@ class DepthLiveWallpaperApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Depth Live Wallpaper',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // Removed const as it's not allowed here
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         fontFamily: 'Inter',
       ),
-      home: const GalleryScreen(),
+      home: GalleryScreen(),
     );
   }
 }
@@ -363,11 +363,11 @@ class _EditorScreenState extends State<EditorScreen> {
         itemBuilder: (context, index) {
           switch (index) {
             case 0:
-              return const Step1BackgroundImage();
+              return Step1BackgroundImage();
             case 1:
-              return const Step2AddLayers();
+              return Step2AddLayers();
             case 2:
-              return const Step3ClockConfig();
+              return Step3ClockConfig();
             default:
               return Container();
           }
